@@ -31,12 +31,12 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'sqlite3'
   gem 'byebug'
-  gem 'web-console'
+
 
 end
 
 group :development do
-
+  gem 'web-console'
 end
 
 group :test do
